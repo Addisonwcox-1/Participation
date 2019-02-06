@@ -27,14 +27,23 @@ namespace WPF1
 
         private void Submit_Click(object sender, RoutedEventArgs e)
         {
-          
+            Application EntryForm = new Application();
+
+            EntryForm.name = txtName.Text;
+            EntryForm.address = txtAddress.Text;
+            EntryForm.zipCode = Convert.ToInt32(txtZip);
+            Console.Write($"Your name is {Name} and your address and zip is {Address} {Zip}");
         }
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Application form = new Application();
+            
 
             
+
+
+        
+
         }
     }
 }

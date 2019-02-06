@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="Submit" Content="Submit" HorizontalAlignment="Left" Height="42" Margin="609,142,0,0" VerticalAlignment="Top" Width="109" Click="Submit_Click" RenderTransformOrigin="1.309,2.069" Background="#FFC3FB03"/>
-        <Label x:Name="Address" Content="Edter Address" HorizontalAlignment="Left" Height="31" Margin="43,142,0,0" VerticalAlignment="Top" Width="78"/>
+        <Label x:Name="Address" Content="Enter Address" HorizontalAlignment="Left" Height="31" Margin="43,142,0,0" VerticalAlignment="Top" Width="78"/>
         <Label x:Name="Zip" Content="Enter Zip" HorizontalAlignment="Left" Height="32" Margin="43,207,0,0" VerticalAlignment="Top" Width="78"/>
         <ListBox x:Name="ListBox" HorizontalAlignment="Left" Height="251" Margin="334,85,0,0" VerticalAlignment="Top" Width="228" SelectionChanged="ListBox_SelectionChanged"/>
         <Label x:Name="Name" Content="Enter Name" HorizontalAlignment="Left" Height="31" Margin="43,83,0,0" VerticalAlignment="Top" Width="78"/>
