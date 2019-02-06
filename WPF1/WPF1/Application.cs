@@ -11,17 +11,28 @@ namespace WPF1
 {
     class Application
     {
-        public string Name {get; set;}
-        public string Address { get; set; }
-        public string ZipCode { get; set; }
+        public string name { get; set; }
+        public string address { get; set; }
+        public int zipCode { get; set; }
+
+        public Application()
+        {
+            name = " ";
+            address = " ";
+            zipCode = 0;
+        }
+
+        public Application(string name, string address, int zipCode)
+        {
+            
+
+        }
+        
 
     }
 
-    public Application()
-    {
-        Name = " ";
 
-    }
+
 
 
 }
